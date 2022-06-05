@@ -1,0 +1,8 @@
+Artytest/
+src/ip/*/*.v
+src/ip/*/*.dcp
+src/ip/*/*.xdc
+src/ip/*/*.vhdl
+src/ip/*/*.vh
+*jou
+*log
