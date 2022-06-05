@@ -43,3 +43,5 @@ set_property -dict {PACKAGE_PIN T10 IOSTANDARD LVCMOS33} [get_ports {led[3]}]
 set_false_path -to [get_ports *led*]
 
 set_false_path -from [get_ports *sw*]
+
+set_false_path -from [get_pins {nolabel_line18/cnt_reg[6]/C}] -to [get_pins {led_reg[3]/D}]
